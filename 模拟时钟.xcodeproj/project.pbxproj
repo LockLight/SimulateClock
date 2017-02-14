@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD0907BB1E5314F500D53327 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0907BA1E5314F500D53327 /* main.m */; };
+		CD0907BE1E5314F500D53327 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0907BD1E5314F500D53327 /* AppDelegate.m */; };
+		CD0907C11E5314F500D53327 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0907C01E5314F500D53327 /* ViewController.m */; };
+		CD0907C41E5314F500D53327 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD0907C21E5314F500D53327 /* Main.storyboard */; };
+		CD0907C61E5314F500D53327 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD0907C51E5314F500D53327 /* Assets.xcassets */; };
+		CD0907C91E5314F500D53327 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD0907C71E5314F500D53327 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CD0907B61E5314F400D53327 /* 模拟时钟.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "模拟时钟.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD0907BA1E5314F500D53327 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD0907BC1E5314F500D53327 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD0907BD1E5314F500D53327 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD0907BF1E5314F500D53327 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CD0907C01E5314F500D53327 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CD0907C31E5314F500D53327 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD0907C51E5314F500D53327 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD0907C81E5314F500D53327 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD0907CA1E5314F500D53327 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD0907B31E5314F400D53327 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD0907AD1E5314F400D53327 = {
+			isa = PBXGroup;
+			children = (
+				CD0907B81E5314F500D53327 /* 模拟时钟 */,
+				CD0907B71E5314F400D53327 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD0907B71E5314F400D53327 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD0907B61E5314F400D53327 /* 模拟时钟.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD0907B81E5314F500D53327 /* 模拟时钟 */ = {
+			isa = PBXGroup;
+			children = (
+				CD0907BC1E5314F500D53327 /* AppDelegate.h */,
+				CD0907BD1E5314F500D53327 /* AppDelegate.m */,
+				CD0907BF1E5314F500D53327 /* ViewController.h */,
+				CD0907C01E5314F500D53327 /* ViewController.m */,
+				CD0907C21E5314F500D53327 /* Main.storyboard */,
+				CD0907C51E5314F500D53327 /* Assets.xcassets */,
+				CD0907C71E5314F500D53327 /* LaunchScreen.storyboard */,
+				CD0907CA1E5314F500D53327 /* Info.plist */,
+				CD0907B91E5314F500D53327 /* Supporting Files */,
+			);
+			path = "模拟时钟";
+			sourceTree = "<group>";
+		};
+		CD0907B91E5314F500D53327 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD0907BA1E5314F500D53327 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD0907B51E5314F400D53327 /* 模拟时钟 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD0907CD1E5314F500D53327 /* Build configuration list for PBXNativeTarget "模拟时钟" */;
+			buildPhases = (
+				CD0907B21E5314F400D53327 /* Sources */,
+				CD0907B31E5314F400D53327 /* Frameworks */,
+				CD0907B41E5314F400D53327 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "模拟时钟";
+			productName = "模拟时钟";
+			productReference = CD0907B61E5314F400D53327 /* 模拟时钟.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD0907AE1E5314F400D53327 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = LockLight;
+				TargetAttributes = {
+					CD0907B51E5314F400D53327 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = BV8SCCJTGN;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CD0907B11E5314F400D53327 /* Build configuration list for PBXProject "模拟时钟" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD0907AD1E5314F400D53327;
+			productRefGroup = CD0907B71E5314F400D53327 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD0907B51E5314F400D53327 /* 模拟时钟 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD0907B41E5314F400D53327 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD0907C91E5314F500D53327 /* LaunchScreen.storyboard in Resources */,
+				CD0907C61E5314F500D53327 /* Assets.xcassets in Resources */,
+				CD0907C41E5314F500D53327 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD0907B21E5314F400D53327 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD0907C11E5314F500D53327 /* ViewController.m in Sources */,
+				CD0907BE1E5314F500D53327 /* AppDelegate.m in Sources */,
+				CD0907BB1E5314F500D53327 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CD0907C21E5314F500D53327 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD0907C31E5314F500D53327 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD0907C71E5314F500D53327 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD0907C81E5314F500D53327 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD0907CB1E5314F500D53327 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CD0907CC1E5314F500D53327 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD0907CE1E5314F500D53327 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BV8SCCJTGN;
+				INFOPLIST_FILE = "模拟时钟/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LockLightz-gmail.com.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD0907CF1E5314F500D53327 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BV8SCCJTGN;
+				INFOPLIST_FILE = "模拟时钟/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LockLightz-gmail.com.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD0907B11E5314F400D53327 /* Build configuration list for PBXProject "模拟时钟" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD0907CB1E5314F500D53327 /* Debug */,
+				CD0907CC1E5314F500D53327 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD0907CD1E5314F500D53327 /* Build configuration list for PBXNativeTarget "模拟时钟" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD0907CE1E5314F500D53327 /* Debug */,
+				CD0907CF1E5314F500D53327 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD0907AE1E5314F400D53327 /* Project object */;
+}
