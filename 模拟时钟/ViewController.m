@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "LLClockView.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    [self setupUI];
+}
+
+- (void)setupUI{
+    LLClockView *clockView = [[LLClockView alloc]initWithImage:[UIImage imageNamed:@"clock"]];
+    clockView.center = self.view.center;
+    [self.view addSubview:clockView];
 }
 
 

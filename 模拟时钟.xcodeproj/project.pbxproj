@@ -13,6 +13,7 @@
 		CD0907C41E5314F500D53327 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD0907C21E5314F500D53327 /* Main.storyboard */; };
 		CD0907C61E5314F500D53327 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD0907C51E5314F500D53327 /* Assets.xcassets */; };
 		CD0907C91E5314F500D53327 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD0907C71E5314F500D53327 /* LaunchScreen.storyboard */; };
+		CD0907D21E5316A900D53327 /* LLClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0907D11E5316A900D53327 /* LLClockView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		CD0907C51E5314F500D53327 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD0907C81E5314F500D53327 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD0907CA1E5314F500D53327 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD0907D01E5316A900D53327 /* LLClockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLClockView.h; sourceTree = "<group>"; };
+		CD0907D11E5316A900D53327 /* LLClockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLClockView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				CD0907C71E5314F500D53327 /* LaunchScreen.storyboard */,
 				CD0907CA1E5314F500D53327 /* Info.plist */,
 				CD0907B91E5314F500D53327 /* Supporting Files */,
+				CD0907D01E5316A900D53327 /* LLClockView.h */,
+				CD0907D11E5316A900D53327 /* LLClockView.m */,
 			);
 			path = "模拟时钟";
 			sourceTree = "<group>";
@@ -154,6 +159,7 @@
 				CD0907C11E5314F500D53327 /* ViewController.m in Sources */,
 				CD0907BE1E5314F500D53327 /* AppDelegate.m in Sources */,
 				CD0907BB1E5314F500D53327 /* main.m in Sources */,
+				CD0907D21E5316A900D53327 /* LLClockView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
